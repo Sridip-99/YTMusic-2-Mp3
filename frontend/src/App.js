@@ -24,7 +24,7 @@ function App() {
 
     if (contentDisposition) {
       // Regex to find filename="Title Name.mp3"
-      const fileNameMatch = contentDisposition.match(/filename="?(.+)"?/);
+      const fileNameMatch = contentDisposition.match(/filename\*?=['"]?(?:UTF-8'')?([^"';\r\n]+)['"]?/i);
       if (fileNameMatch && fileNameMatch[1]) {
         fileName = fileNameMatch[1];
       }
