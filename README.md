@@ -56,8 +56,8 @@ The easiest way to get started is using the provided automation scripts:
 1. **Clone the Repository:**  
    Bash  
    ```
-   git clone https://github.com/your-username/your-repo-name.git  
-   cd your-repo-name
+   git clone https://github.com/Sridip-99/YTMusic-2-Mp3.git 
+   cd YTMusic-2-Mp3
     ```
 2. **Installation:** Double-click install\_project.bat. This will create a Python virtual environment and install all Node modules.  
 3. **Run the App:** Double-click run\_project.bat. Two windows will open:  
